@@ -27,7 +27,7 @@ function wins(userChoice, computerChoice) {
     userScore_span.innerHTML = userScore;
     compScore_span.innerHTML = compScore;
     // SCORE DATA
-    var scored = userScore - compScore;
+    var scored = (userScore - compScore);
     var new_score = scored.toFixed(2);
     final_Score = new_score;
     score.innerHTML = final_Score;
@@ -47,7 +47,7 @@ function lost(userChoice, computerChoice) {
     userScore_span.innerHTML = userScore;
     compScore_span.innerHTML = compScore;
     // SCORE DATA
-    var scored = userScore - compScore;
+    var scored = (userScore - compScore);
     var new_score = scored.toFixed(2);
     final_Score = new_score;
     score.innerHTML = final_Score;
