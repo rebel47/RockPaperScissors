@@ -1,5 +1,6 @@
 let userScore = 0;
 let compScore = 0;
+let final_Score = 0;
 const userScore_span = document.getElementById('user-score');
 const compScore_span = document.getElementById('comp-score');
 const scoreBoard_div = document.querySelector('.score-board');
@@ -26,13 +27,13 @@ function wins(userChoice, computerChoice) {
     userScore_span.innerHTML = userScore;
     compScore_span.innerHTML = compScore;
     // SCORE DATA
-    var scored = userScore / compScore;
+    var scored = userScore - compScore;
     var new_score = scored.toFixed(2);
-    let name = new_score;
-    score.innerHTML = name;
-    if (userScore >= 1 && compScore == 0) {
-        score.innerHTML = userScore;
-    }
+    final_Score = new_score;
+    score.innerHTML = final_Score;
+    // if (userScore >= 1 && compScore == 0) {
+    //     score.innerHTML = userScore;
+    // }
     // TILL HERE
     const smallUserWord = "user".fontsize(3).sub();
     const smallCompWord = "comp".fontsize(3).sub();
@@ -46,13 +47,13 @@ function lost(userChoice, computerChoice) {
     userScore_span.innerHTML = userScore;
     compScore_span.innerHTML = compScore;
     // SCORE DATA
-    var scored = userScore / compScore;
+    var scored = userScore - compScore;
     var new_score = scored.toFixed(2);
-    let name = new_score;
-    score.innerHTML = name;
-    if (userScore >= 1 && compScore == 0) {
-        score.innerHTML = userScore;
-    }
+    final_Score = new_score;
+    score.innerHTML = final_Score;
+    // if (userScore >= 1 && compScore == 0) {
+    //     score.innerHTML = userScore;
+    // }
     // TILL HERE
     const smallUserWord = "user".fontsize(3).sub();
     const smallCompWord = "comp".fontsize(3).sub();
@@ -98,15 +99,6 @@ function game(userChoice) {
 function new_game() {
     location.reload()
 }
-
-/* 
-function gameover() {
-    var scored = userScore / compScore;
-    var n = scored.toFixed(2);
-    localStorage.setItem('score', n);
-    let name = localStorage.getItem('score');
-    score.innerHTML = name;
-}*/
 
 function main() {
     rock_div.addEventListener('click', function() {
