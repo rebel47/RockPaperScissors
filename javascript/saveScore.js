@@ -6,9 +6,9 @@ function print_Score() {
     let data =
         '\r **THANK YOU** FOR PLAYING ROCK PAPER SCISSORS GAME\r\n' +
         '\r *** HERE IS YOUR SCORE-CARD ***\r\n' +
-        '\r User-Score: ' + userScore + ' \r\n ' +
-        'Computer-Score: ' + compScore + ' \r\n ' +
-        'Final-Score: ' + final_Score + ' \r\n ' +
+        '\r -User-Score: ' + userScore + ' \r\n ' +
+        '-Computer-Score: ' + compScore + ' \r\n ' +
+        '-Final-Score: ' + final_Score + ' \r\n ' +
         '\r *** DEVELOPED BY AYAZ ALAM ***\r\n';
 
     // Convert the text to BLOB.
