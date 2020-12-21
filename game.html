@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>ROCK PAPER SCISSORS GAME</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>ROCK PAPER SCISSORS</h1>
+    </header>
+    <div class="score">
+        <p>Your Score</p>
+        <span id="score">0</span>
+    </div>
+    <div class="scoreboard">
+        <div id="user-label" class="badge">user</div>
+        <div id="comp-label" class="badge">comp</div>
+        <span id="user-score">0</span>:<span id="comp-score">0</span>
+    </div>
+
+    <div class="result">
+        <p>Paper covers Rock. You Win!!!</p>
+    </div>
+    <div class="choices">
+        <div id="r" class="choice">
+            <img src="/images/rock.png" alt="">
+        </div>
+        <div id="p" class="choice">
+            <img src="/images/paper.png" alt="">
+        </div>
+        <div id="s" class="choice">
+            <img src="/images/scissors.png" alt="">
+        </div>
+    </div>
+
+    <p id="action-message">Make Your Move</p>
+    <div class="button">
+        <button onclick="new_game()">
+         <p class="text">New Game</p> 
+        </button>
+        <button onclick="print_Score()"><p class="text"> Print Score</p></button>
+    </div>
+    <footer class="copyright">Made with &#10084;&#65039; By Ayaz Alam</footer>
+    <script src="/javascript/app.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/javascript/saveScore.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>

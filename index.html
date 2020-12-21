@@ -1,51 +1,33 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <title>ROCK PAPER SCISSORS GAME</title>
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Rock|Paper|Scissors</title>
 </head>
 
 <body>
-    <header>
-        <h1>ROCK PAPER SCISSORS</h1>
+    <header class="container">
+        <marquee direction="left" width="100%"> Welcome To Rock Paper Scissors Game</marquee>
     </header>
-    <div class="score">
-        <p>Your Score</p>
-        <span id="score">0</span>
-    </div>
-    <div class="scoreboard">
-        <div id="user-label" class="badge">user</div>
-        <div id="comp-label" class="badge">comp</div>
-        <span id="user-score">0</span>:<span id="comp-score">0</span>
-    </div>
+    <input type="text" placeholder="Enter Your Name"><br>
+    <button type="button" class="btn btn-secondary"><a href="game.html">Enter Game</a></button>
+    <!-- Optional JavaScript; choose one of the two! -->
 
-    <div class="result">
-        <p>Paper covers Rock. You Win!!!</p>
-    </div>
-    <div class="choices">
-        <div id="r" class="choice">
-            <img src="/images/rock.png" alt="">
-        </div>
-        <div id="p" class="choice">
-            <img src="/images/paper.png" alt="">
-        </div>
-        <div id="s" class="choice">
-            <img src="/images/scissors.png" alt="">
-        </div>
-    </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
-    <p id="action-message">Make Your Move</p>
-    <div class="button">
-        <button onclick="new_game()">
-         <p class="text">New Game</p> 
-        </button>
-        <button onclick="print_Score()"><p class="text"> Print Score</p></button>
-    </div>
-    <footer class="copyright">Made with &#10084;&#65039; By Ayaz Alam</footer>
-    <script src="/javascript/app.js" type="text/javascript" charset="utf-8"></script>
-    <script src="/javascript/saveScore.js" type="text/javascript" charset="utf-8"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
 </body>
 
 </html>
