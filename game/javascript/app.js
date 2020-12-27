@@ -120,7 +120,7 @@ function end_game() {
     change1();
     change2();
     change3();
-    window.location.replace("/game/end.html");
+    window.location.replace("game/end.html");
 }
 
 function main() {
