@@ -237,4 +237,14 @@ footer {
     #score {
         font-size: 25px;
     }
+    #user-label {
+        position: absolute;
+        top: 15px;
+        left: -20px;
+    }
+    #comp-label {
+        position: absolute;
+        top: 15px;
+        right: -22px;
+    }
 }
