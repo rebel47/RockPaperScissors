@@ -126,7 +126,7 @@ function end_game() {
     change1();
     change2();
     change3();
-    window.location.href = "/str-project/game/end.html";
+    window.location.href = "str-project/game/end.html";
 }
 
 function main() {
