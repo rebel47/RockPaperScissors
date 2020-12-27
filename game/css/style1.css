@@ -7,7 +7,7 @@
 body {
     text-align: center;
     font-family: 'Langar', cursive !important;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/images/background.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/game/images/background.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
