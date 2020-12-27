@@ -12,5 +12,5 @@ document.getElementById('change3').innerHTML = e;
 
 
 function new_game() {
-    window.location.href = "index.html";
+    window.location.replace = "str-project/index.html";
 }
