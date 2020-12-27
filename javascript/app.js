@@ -100,6 +100,29 @@ function new_game() {
     location.reload()
 }
 
+function change1() {
+    // var text1 = document.getElementById('user-score').value;
+    var text1 = userScore;
+    localStorage.setItem("myValue1", text1);
+}
+
+function change2() {
+    var text2 = compScore;
+    localStorage.setItem("myValue2", text2);
+}
+
+function change3() {
+    var text3 = final_Score;
+    localStorage.setItem("myValue3", text3);
+}
+
+function end_game() {
+    change1();
+    change2();
+    change3();
+    window.location.replace("/end.html");
+}
+
 function main() {
     rock_div.addEventListener('click', function() {
         game("r");
