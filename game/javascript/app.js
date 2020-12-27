@@ -9,6 +9,12 @@ const rock_div = document.getElementById('r');
 const paper_div = document.getElementById('p');
 const scissors_div = document.getElementById('s');
 const score = document.getElementById('score');
+const user = document.getElementById("user-label");
+
+(function setUserName() {
+    var b = localStorage.getItem("myValue");
+    user.innerHTML = b;
+})();
 
 function getComputerChoices() {
     const choices = ['r', 'p', 's'];
