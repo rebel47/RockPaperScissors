@@ -170,7 +170,7 @@ footer {
 
 /* For Mobile */
 
-@media(max-width:400px) {
+@media(max-width:450px) {
     header {
         margin-bottom: 40px;
     }
