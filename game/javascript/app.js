@@ -120,7 +120,7 @@ function end_game() {
     change1();
     change2();
     change3();
-    window.location.href = "game/end.html";
+    window.location.href = "/end.html";
 }
 
 function main() {
