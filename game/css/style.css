@@ -179,7 +179,7 @@ footer {
     body {
         text-align: center;
         font-family: 'Langar', cursive !important;
-        background-image: url('/game/images/background.jpg');
+        background-image: url("https://raw.githubusercontent.com/rebel47/str-project/main/game/images/background.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
