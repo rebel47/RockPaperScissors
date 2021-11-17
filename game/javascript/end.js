@@ -12,5 +12,5 @@ document.getElementById('change3').innerHTML = e;
 
 
 function new_game() {
-    window.location.href = "https://rebel47.github.io/str-project/index.html";
+    window.location.href = "https://rebel47.github.io/RockPaperScissors";
 }
